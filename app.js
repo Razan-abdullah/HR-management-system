@@ -24,11 +24,10 @@ this.salary=function(){
     }
  
     
-    
-console.log(`Employee1 name :${this.fullName}`);
-console.log(`Department:${this.department}`);
-
-console.log(`Employee1 salary:${this.salary()}`);
+    let div=document.getElementById("div");
+    let p= document.createElement("p");
+    p.innerHTML=`  Employee name :  ${this.fullName} - Department:${this.department}  - Employee salary : ${this.salary()} .`;
+div.appendChild(p);
 
 }
 

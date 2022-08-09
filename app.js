@@ -24,7 +24,7 @@ this.salary=function(){
     }
  
     
-    let div=document.getElementById("div");
+    let div=document.getElementById ("div");
     let p= document.createElement("p");
     p.innerHTML=`  Employee name :  ${this.fullName} - Department:${this.department}  - Employee salary : ${this.salary()} .`;
 div.appendChild(p);

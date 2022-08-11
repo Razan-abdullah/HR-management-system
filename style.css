@@ -5,12 +5,56 @@ html {
 }
 p{
 
-display: inline;
 
 }
 img{
 display: inline;
+width: 200px;
+border-radius: 180px;
+flex: 0 1 40%;
 
+margin: 13px;
+}
+
+p{margin: 5px;
+    display: flex;
+
+}
+div{
+
+
+    background-color: rgb(13, 7, 23);
+    padding: 20px;
+    margin: 30px;
+    max-width: 250px;
+    align-items: center;
+    align-content: center;
+    color: bisque;
+    flex-direction: column;
+    
 
 
 }
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+  
+ .card {
+     flex: 0 0 40%;
+ }
+ a{
+    text-decoration: none;
+color:white;
+padding: 10px;
+ }
+
+
+ header,nav, footer{
+    background-color: rgb(13, 7, 23);
+    color :white;
+    padding: 10px;
+
+ }
